@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navigation-bar{
+    width: 100%;
+    height: 68px;
+    background-color: rgb(88, 85, 85);
+    /* text-decoration: none; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    /* margin-right: 25px; */
+    position: relative;
+}
+
+.logo{
+    padding-left: 25px;
+}
+
+.logo img{
+    height: 47px;
+    width: 118px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.nav{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.1s ease-out;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(173, 169, 169);
+}
+
+.nav .nav-link-1{
+    color: rgb(207, 148, 39);
+}
+
+.nav a:hover{
+     color: orangered;
+}
+.buttons{
+    padding: 10px;
+    padding-right: 20px;
+}
+
+.log-button{
+    height: 30px;
+    width: 60px;
+    font-size: 0.77rem;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-right: 15px;
+    color: skyblue;
+    border: none;
+    background-color: rgb(88, 85, 85);
+    transition: 0.1s ease-out;
+}
+
+.log-button:hover{
+    background-color: rgb(14, 14, 37);
+}
+
+.sign-button{
+    height: 42px;
+    width: 68px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    color: rgb(240, 167, 31);
+    background-color: rgba(245, 93, 23, 0.932);
+    transition: 0.1s ease-out;
+}
+
+.sign-button:hover{
+    background-color: rgb(255, 30, 0);
+}
+
+.content{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(51, 50, 50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-left{
+    width: 50%;
+}
+
+.box1{
+    width: 600px;
+    height: 500px;
+}
+
+.content-left img{
+    width: 500px;
+    height: 400px;
+    padding-top: 40px;
+    /* padding-top: 30%;
+    padding-left: 10%;  */
+}
+
+.content-right{
+    gap: 35px;
+    padding-left: 120px;
+   
+}
+
+.box{
+    width: 400px;
+}
+
+.content-right h2{
+    font-size: 80px;
+    font-weight: lighter;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.content-right .red{
+    color: rgb(247, 63, 63);
+}
+
+.content-right h5{
+    color: rgb(247, 82, 23);
+}
